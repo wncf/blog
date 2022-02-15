@@ -128,7 +128,7 @@ module.exports = {
     footer: {
       createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'Wncf | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'Wncf | <a href="https://github.com/wncf/blog/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
 
     // 插入hmtl(广告)模块
