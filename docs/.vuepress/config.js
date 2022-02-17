@@ -21,6 +21,7 @@ module.exports = {
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           { text: 'JavaScript', link: '/pages/0d4414/' },
           { text: 'vue', link: '/pages/4d973b/' },
+          { text: 'css', link: '/pages/d1adf0/' },
         ],
       },
       // {
@@ -35,8 +36,6 @@ module.exports = {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
         items: [
-          { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-          { text: '资源', link: '/pages/eee83a9211a70f9d/' },
           { text: '收藏正则', link: '/pages/72e075/' },
         ],
       },
