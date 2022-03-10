@@ -34,7 +34,7 @@ module.exports = {
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
+        link: '/pages/72e075/',
         items: [
           { text: '收藏正则', link: '/pages/72e075/' },
         ],
