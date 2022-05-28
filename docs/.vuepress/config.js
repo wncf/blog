@@ -96,7 +96,7 @@ module.exports = {
 
     // 博主信息，显示在首页侧边栏
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/wncf/Store/blog/public/avatar.png',
+      avatar: '/img/logo.png',
       name: 'wncf',
       slogan: '编写代码并热爱生活',
     },
