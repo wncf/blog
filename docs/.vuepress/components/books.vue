@@ -8,7 +8,7 @@
       <div class="books-fill">
         <a class="item" :href="children.url" target="_blank" v-for="children of item.children" :key="children.title">
           <div class="img-fill">
-            <img :src="`${children.url}/favicon.ico`" alt="" />
+            <img :src="`${children.IconUrl?children.IconUrl:GetUrlLeft(children.url)}`" alt="" />
           </div>
           <div class="right">
             <div class="title">{{ children.name }}</div>
@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import xxbooks from "./books/日常.json";
+import xxbooks from "./booksData";
 export default {
   props: {
     title: {
@@ -38,6 +38,12 @@ export default {
     books: () => {
       return xxbooks;
     },
+    GetUrlLeft:()=>{
+      return (url)=>{
+        // return `${url.substring(0,url.indexOf(':'))}://${url.split('/')[2]}`
+        return `https://favicon.cccyun.cc/${url}`
+      }
+    }
   },
   methods: {
     add() {
