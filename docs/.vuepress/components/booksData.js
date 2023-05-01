@@ -44,6 +44,62 @@ export default [
         value: "玩mc必看",
       },
     ],
+  }, {
+    title: "docs",
+    children: [
+      {
+        name: "vuejs",
+        url: "https://staging-cn.vuejs.org",
+        IconUrl: "https://staging-cn.vuejs.org/logo.svg",
+        value: "js框架",
+      },
+      {
+        name: "pinia",
+        url: "https://pinia.web3doc.top/",
+        value: "vue3状态管理库",
+        iconType:'local',
+      }, {
+        name: "vueRouter",
+        url: "https://router.vuejs.org/zh/",
+        value: "vue3 路由库",
+      }, {
+        name: "vant",
+        url: "https://vant-contrib.gitee.io/vant/#/zh-CN",
+        value: "移动端组件库",
+      },{
+        name: "vant",
+        url: "https://vant-contrib.gitee.io/vant/#/zh-CN",
+        value: "移动端组件库",
+      }, {
+        name: "element-plus",
+        url: "https://element-plus.gitee.io/zh-CN/",
+        value: "pc端有名的组件库",
+      },
+      {
+        name: "axios",
+        url: "https://www.axios-http.cn/",
+        value: "基于promise的请求库",
+      },      {
+        name: "vite构建工具",
+        url: "https://vitejs.cn",
+        value: "构建工具之一",
+      },
+      {
+        name: "koa2中文官网",
+        url: "https://www.koajs.com.cn/",
+        value: "node框架",
+      },
+      {
+        name: "nestJS中文官网",
+        url: "https://docs.nestjs.cn/",
+        value: "面向AOP的node框架",
+      },
+      {
+        name: "react",
+        url: "https://reactjs.bootcss.com/",
+        value: "js框架",
+      },
+    ],
   },
   {
     title: "WEB",
@@ -57,24 +113,8 @@ export default [
         url: "https://zh.javascript.info/",
         value: "非常全面的js教程网站",
       },
-      {
-        name: "vuejs官网",
-        url: "https://staging-cn.vuejs.org",
-        IconUrl: "https://staging-cn.vuejs.org/logo.svg",
-        value: "非常好用的js框架",
-      },
-      {
-        name: "koa2中文官网",
-        url: "https://www.koajs.com.cn/",
-        value: "node框架",
-      },
-      {
-        name: "nestJS中文官网",
-        url: "https://docs.nestjs.cn/",
-        value: "面向AOP的node框架",
-      },
     ],
-  },
+  }, 
   {
     title: "工具",
     children: [
